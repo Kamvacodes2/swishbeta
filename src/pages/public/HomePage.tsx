@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import ExperienceCard from '../../components/feature/ExperienceCard';
 import { api } from '../../services/api';
 import gsap from 'gsap';
-import teambuildingImage from '../../asset/teambuilding.png';
+import teambuildingImage from '../../asset/teambuilding.jpeg';
 import FadeInOnScroll from '../../components/effects/FadeInOnScroll';
 import { BuildingOffice2Icon, HeartIcon, UsersIcon } from '@heroicons/react/24/outline';
 
@@ -127,7 +127,7 @@ const HomePage: React.FC = () => {
           <p className="text-xl md:text-2xl mb-8 animate-fadeInUp animation-delay-200">
             Purpose-built team building for organisations that matter.
           </p>
-          <div className="space-x-4 animate-fadeInUp animation-delay-400">
+          <div className="flex flex-col gap-5 sm:gap-6 md:flex-row md:gap-4 animate-fadeInUp animation-delay-400">
             <Link to="/register">
               <Button size="lg" variant="secondary" className="bg-white text-green-700 hover:bg-gray-100">Get Started</Button>
             </Link>
