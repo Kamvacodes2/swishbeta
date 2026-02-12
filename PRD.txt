@@ -1,0 +1,440 @@
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Product Name
+
+SWISH
+
+Tagline (working options):
+
+Switch on stronger teams
+
+Where teams connect, grow, and move together
+
+Purpose-built team building for organisations that matter
+
+1. Product Vision
+
+SWISH is a team-building platform designed for corporates, churches, and large groups to design, manage, and experience structured team-building activities that strengthen connection, communication, and shared purpose.
+
+SWISH should:
+
+Feel credible and professional for corporates
+
+Feel warm, inclusive, and values-driven for churches
+
+Scale smoothly for large groups
+
+Support self-service booking and facilitated experiences
+
+Offer clear admin control for organisations and platform owners
+
+2. Target Users & Personas
+2.1 Front-End Users
+A. Corporate Decision Maker
+
+Examples: HR Manager, Team Lead, People & Culture Manager
+
+Goals
+
+Improve team cohesion
+
+Run structured team-building sessions
+
+Measure engagement and outcomes
+
+Pain Points
+
+Unstructured team events
+
+Hard-to-coordinate logistics
+
+No measurable impact
+
+B. Church / Ministry Leader
+
+Examples: Pastor, Youth Leader, Small Group Coordinator
+
+Goals
+
+Build unity and trust
+
+Encourage participation
+
+Align activities with values
+
+Pain Points
+
+Low engagement
+
+Disconnected groups
+
+Limited tools for managing people
+
+C. Participant (End User)
+
+Examples: Employee, Church member, Volunteer
+
+Goals
+
+Participate easily
+
+Understand activities clearly
+
+Feel included and engaged
+
+2.2 Admin & Tenant Users
+A. Tenant Admin (Organisation-Level)
+
+Examples: Corporate HR Admin, Church Admin
+
+Responsibilities
+
+Manage groups
+
+Book experiences
+
+Track attendance
+
+View reports
+
+B. Platform Admin (SWISH Internal)
+
+Responsibilities
+
+Manage tenants
+
+Create global content
+
+Monitor usage
+
+Control billing and plans
+
+3. Branding & Design Requirements
+3.1 Visual Identity
+
+Primary Colours
+
+Green → growth, energy, renewal
+
+White → clarity, simplicity
+
+Black → authority, professionalism
+
+Design Style
+
+Modern, minimal
+
+Calm but energetic
+
+Strong typography
+
+Clear CTAs
+
+UX Principles
+
+Mobile-first
+
+Accessible (WCAG AA)
+
+Simple flows
+
+Minimal friction
+
+4. Site Architecture
+4.1 Public Pages
+
+Home
+
+About SWISH
+
+How It Works
+
+Experiences
+
+Solutions
+
+Corporate
+
+Church
+
+Large Groups
+
+Pricing
+
+Testimonials / Case Studies
+
+Resources / Blog
+
+Contact
+
+Login / Register
+
+4.2 Authenticated Areas
+
+User Dashboard
+
+Tenant Admin Dashboard
+
+Platform Admin Dashboard
+
+5. Functional Requirements – Public & Users
+5.1 Homepage
+
+Purpose
+
+Communicate value immediately
+
+Drive sign-ups or bookings
+
+Key Sections
+
+Hero (Value prop + CTA)
+
+Who SWISH is for
+
+Featured experiences
+
+How it works (3–4 steps)
+
+Testimonials
+
+Call-to-action (Book / Contact / Sign Up)
+
+5.2 Experiences / Programs Page
+
+Features
+
+Filter by:
+
+Group type (Corporate / Church)
+
+Group size
+
+Duration
+
+Goals (Communication, Trust, Leadership, Fun)
+
+Experience cards with:
+
+Title
+
+Description
+
+Duration
+
+Group size
+
+Delivery type (In-person / Online)
+
+Detailed experience pages:
+
+Overview
+
+Outcomes
+
+Agenda
+
+What’s included
+
+Requirements
+
+Pricing
+
+Booking CTA
+
+5.3 Booking Flow
+
+Steps
+
+Select experience
+
+Choose date & time
+
+Select group size
+
+Choose delivery type
+
+Enter organisation details
+
+Confirm booking / enquiry
+
+Confirmation email
+
+5.4 User Accounts
+
+Users Can
+
+Create an account
+
+Join an organisation
+
+View upcoming events
+
+See assigned activities
+
+Access resources
+
+Provide feedback after sessions
+
+6. Tenant (Organisation) Admin Requirements
+6.1 Tenant Dashboard
+
+Overview Widgets
+
+Upcoming sessions
+
+Active groups
+
+Participation metrics
+
+Recent feedback
+
+6.2 Group Management
+
+Create groups / teams
+
+Assign members
+
+Import users (CSV)
+
+Assign experiences to groups
+
+6.3 Session Management
+
+Schedule sessions
+
+Assign facilitators
+
+Track attendance
+
+Upload session materials
+
+Send reminders
+
+6.4 Content Access
+
+View assigned experiences
+
+Download worksheets / guides
+
+Share links with participants
+
+6.5 Reporting & Insights
+
+Attendance reports
+
+Engagement metrics
+
+Feedback summaries
+
+Export CSV / PDF
+
+7. Platform Admin (SWISH Internal)
+7.1 Tenant Management
+
+Create / suspend tenants
+
+Assign plans
+
+View tenant usage
+
+Impersonate tenant admin (support)
+
+7.2 Experience Management
+
+Create global experiences
+
+Edit content
+
+Version control
+
+Enable / disable experiences
+
+7.3 User Management
+
+View all users
+
+Assign roles
+
+Reset passwords
+
+Audit activity logs
+
+7.4 Billing & Plans
+
+Free / Trial / Paid tiers
+
+Seat-based or event-based pricing
+
+Invoice management
+
+Payment integrations (Stripe, etc.)
+
+7.5 Analytics
+
+Platform usage
+
+Popular experiences
+
+Revenue tracking
+
+Retention metrics
+
+8. Permissions & Roles
+Role	Capabilities
+Participant	View & attend sessions
+Tenant Admin	Full org control
+Facilitator	Run sessions
+Platform Admin	Full system control
+9. Non-Functional Requirements
+
+Secure authentication (JWT / OAuth)
+
+Role-based access control
+
+Scalable architecture
+
+GDPR / POPIA compliant
+
+Audit logs
+
+Performance optimized
+
+10. MVP Scope (2–3 Weeks)
+
+Must-Have
+
+Marketing site
+
+Experience listings
+
+Booking enquiry form
+
+Tenant dashboard (basic)
+
+Group management
+
+Dummy / hardcoded data
+
+Interactive, navigable UI
+
+Nice-to-Have
+
+Payments
+
+Advanced analytics
+
+Email automation
+
+11. Future Enhancements
+
+Gamification
+
+Team challenges
+
+Custom experience builder
+
+AI-recommended activities
+
+Mobile app
+
+Integrations (Google Calendar, Slack)
