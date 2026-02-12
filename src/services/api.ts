@@ -16,7 +16,7 @@ const MOCK_EXPERIENCES: Experience[] = [
     agenda: ['Introduction', 'Team challenges', 'Debrief & learn'],
     requirements: ['Open space', 'Whiteboard'],
     pricing: 'From R27 000',
-    imageUrl: '/src/asset/pexels-rdne-7551431.jpg',
+    imageUrl: '/images/pexels-rdne-7551431.jpg',
     published: true,
   },
   {
@@ -30,7 +30,7 @@ const MOCK_EXPERIENCES: Experience[] = [
     agenda: ['Briefing', 'Escape room challenges', 'Post-game discussion'],
     requirements: ['Stable internet', 'Zoom/Teams access'],
     pricing: 'R900 per person',
-    imageUrl: '/src/asset/pexels-danny-sanz-163348835-10855590.jpg',
+    imageUrl: '/images/pexels-danny-sanz-163348835-10855590.jpg',
     published: true,
   },
   {
@@ -44,7 +44,7 @@ const MOCK_EXPERIENCES: Experience[] = [
     agenda: ['Leadership theory', 'Simulation rounds', 'Personalized feedback'],
     requirements: ['Meeting room', 'Projector'],
     pricing: 'Custom Quote',
-    imageUrl: '/src/asset/pexels-rdne-7551754.jpg',
+    imageUrl: '/images/pexels-rdne-7551754.jpg',
     published: false,
   },
   {
@@ -58,7 +58,7 @@ const MOCK_EXPERIENCES: Experience[] = [
     agenda: ['Guided meditation', 'Mindfulness exercises', 'Q&A'],
     requirements: ['Quiet space', 'Optional headphones'],
     pricing: 'R5 400 flat rate',
-    imageUrl: '/src/asset/pexels-gabby-k-9489091.jpg',
+    imageUrl: '/images/pexels-gabby-k-9489091.jpg',
     published: true,
   },
 ];
