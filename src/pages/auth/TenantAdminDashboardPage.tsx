@@ -27,8 +27,6 @@ const TenantAdminDashboardPage: React.FC = () => {
   
   const [teamMembers, setTeamMembers] = useState<User[]>([]);
   const [experiences, setExperiences] = useState<Experience[]>([]);
-  const [sessions, setSessions] = useState<Session[]>([]);
-
   const [loading, setLoading] = useState(true);
 
   const [isUserEditorOpen, setIsUserEditorOpen] = useState(false);
@@ -47,18 +45,12 @@ const TenantAdminDashboardPage: React.FC = () => {
   useEffect(() => {
     const fetchAllData = async () => {
       setLoading(true);
-      const [
-        fetchedUsers,
-        fetchedExperiences,
-        fetchedSessions,
-      ] = await Promise.all([
+      const [fetchedUsers, fetchedExperiences] = await Promise.all([
         organizationId ? api.users.getByOrganizationId(organizationId) : Promise.resolve([]),
         api.experiences.getAll(),
-        api.sessions.getAll(),
       ]);
       setTeamMembers(fetchedUsers);
       setExperiences(fetchedExperiences);
-      setSessions(fetchedSessions);
       setLoading(false);
     };
     fetchAllData();
